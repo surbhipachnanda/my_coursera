@@ -37,13 +37,14 @@ body{
 }
 
 .item{
-	height: 600px;
-	margin-bottom: 20px;
+	height: 300px;
+	margin-top: 60px;
+	margin-bottom: 60px;
 	background-color: grey;
 	padding: 20px;
 	text-align: justify;
 	color: black;
-	overflow: scroll;
+	overflow:hidden;
 }
 
 #chicken, #beef, #sushi{
