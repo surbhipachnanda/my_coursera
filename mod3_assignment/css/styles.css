@@ -37,14 +37,14 @@ body{
 }
 
 .item{
-	height: 300px;
+	height: 700px;
 	margin-top: 60px;
 	margin-bottom: 60px;
 	background-color: grey;
 	padding: 20px;
 	text-align: justify;
 	color: black;
-	overflow:hidden;
+	
 }
 
 #chicken, #beef, #sushi{
@@ -58,3 +58,30 @@ body{
 
 	
 }
+
+.footer{
+	height: 300px;
+	background: white;
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+
+#nav-list a{
+	color: black;
+	text-align: center;
+	padding: 10px;
+	border: 1px solid black;
+	
+
+}
+
+#nav-list a:hover{
+	text-shadow: 1px 1px 2px #000;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid black;
+}
+
